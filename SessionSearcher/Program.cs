@@ -58,6 +58,7 @@ public class SessionSearcher
 
         catch (UnauthorizedAccessException){ }
         catch (DirectoryNotFoundException){ }
+        catch (PathTooLongException){ }
 
         if (files != null)
         {
